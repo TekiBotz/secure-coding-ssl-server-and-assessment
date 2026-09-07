@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Secrets / keystores - never commit
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+application-local.properties
+.env
+.env.*
+!.env.example

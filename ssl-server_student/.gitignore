@@ -1,0 +1,49 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### Eclipse workspace metadata (IDE state, never commit) ###
+.metadata/
+*.mylyn
+tmp/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### Secrets / keystores - never commit (rules intentionally last so they win over !**/src/main/**) ###
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+application-local.properties
+.env
+.env.*
+!.env.example
