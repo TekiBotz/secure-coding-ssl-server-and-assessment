@@ -13,3 +13,6 @@ application-local.properties
 .env
 .env.*
 !.env.example
+
+# Local-only Claude Code project instructions
+CLAUDE.md
