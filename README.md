@@ -1,6 +1,6 @@
 # SSL Server: SHA-256 checksum service
 
-A small Spring Boot REST service, served over HTTPS, that returns the SHA-256
+Spring Boot REST service, served over HTTPS, that returns the SHA-256
 checksum of a fixed data value. TLS is terminated in-process by embedded Tomcat
 using a self-signed PKCS12 keystore. The `ssl-server_student/` directory holds the
 Maven project; the two PDFs at the repo root are described under
